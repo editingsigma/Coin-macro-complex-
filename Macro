@@ -95,6 +95,11 @@ place(-7.42, 4.35, 3.68, "Minigunner", 1850)
 upgrade(-7.42, 2.350, 3.68, 400)
 upgrade(-7.42, 2.350, 3.68, 1500)
 
+-- Accelerator x1
+place(-11.14, 3.87, -25.06, "Accelerator", 7500)
+upgrade(-11.14, 2.350, -25.06, 2000)
+upgrade(-11.14, 2.350, -25.06, 6000)
+
 -- Minigunner x1
 place(-4.40, 4.34, 3.63, "Minigunner", 1850)
 upgrade(-4.40, 2.350, 3.63, 400)
@@ -124,11 +129,6 @@ upgrade(-5.58, 2.350, 7.91, 1500)
 place(-3.36, 4.35, 7.74, "Minigunner", 1850)
 upgrade(-3.36, 2.350, 7.74, 400)
 upgrade(-3.36, 2.350, 7.74, 1500)
-
--- Accelerator x1
-place(-11.14, 3.87, -25.06, "Accelerator", 7500)
-upgrade(-11.14, 2.350, -25.06, 2000)
-upgrade(-11.14, 2.350, -25.06, 6000)
 
 -- Accelerator x1
 place(-7.90, 3.80, -25.39, "Accelerator", 7500)
