@@ -1,0 +1,292 @@
+-- PHASE 1 — Reordered placements (as finalized)
+-- Militant x1
+place(2.86, 3.32, -3.83, "Militant", 600)
+upgrade(2.86, 2.350, -3.83, 300)
+upgrade(2.86, 2.350, -3.83, 850)
+
+-- Militant x1
+place(3.02, 3.59, 3.65, "Militant", 600)
+upgrade(3.02, 2.350, 3.65, 300)
+upgrade(3.02, 2.350, 3.65, 850)
+
+-- Farm x1
+place(-43.98, 4.37, -38.04, "Farm", 300)
+upgrade(-43.98, 2.350, -38.04, 200)
+upgrade(-43.98, 2.350, -38.04, 600)
+
+-- Farm x1
+place(-43.43, 5.00, -43.97, "Farm", 300)
+upgrade(-43.43, 2.350, -43.97, 200)
+upgrade(-43.43, 2.350, -43.97, 600)
+
+-- Militant x1
+place(-3.94, 3.50, 3.54, "Militant", 600)
+upgrade(-3.94, 2.350, 3.54, 300)
+upgrade(-3.94, 2.350, 3.54, 850)
+
+-- Farm x1
+place(-39.78, 4.89, -44.48, "Farm", 300)
+upgrade(-39.78, 2.350, -44.48, 200)
+upgrade(-39.78, 2.350, -44.48, 600)
+
+-- Militant x1
+place(-3.87, 4.24, -3.29, "Militant", 600)
+upgrade(-3.87, 2.350, -3.29, 300)
+upgrade(-3.87, 2.350, -3.29, 850)
+
+-- Farm x1
+place(-43.57, 4.93, -41.05, "Farm", 300)
+upgrade(-43.57, 2.350, -41.05, 200)
+upgrade(-43.57, 2.350, -41.05, 600)
+
+-- Militant x1
+place(-3.72, 3.50, 3.56, "Militant", 600)
+upgrade(-3.72, 2.350, 3.56, 300)
+upgrade(-3.72, 2.350, 3.56, 850)
+
+-- Militant x1
+place(6.38, 3.56, 3.74, "Militant", 600)
+upgrade(6.38, 2.350, 3.74, 300)
+upgrade(6.38, 2.350, 3.74, 850)
+
+-- Farm x1
+place(-40.26, 4.50, -40.76, "Farm", 300)
+upgrade(-40.26, 2.350, -40.76, 200)
+upgrade(-40.26, 2.350, -40.76, 600)
+
+-- Farm x1
+place(-43.43, 5.00, -43.97, "Farm", 300)
+upgrade(-43.43, 2.350, -43.97, 200)
+upgrade(-43.43, 2.350, -43.97, 600)
+
+-- Militant x1
+place(6.83, 3.96, -3.39, "Militant", 600)
+upgrade(6.83, 2.350, -3.39, 300)
+upgrade(6.83, 2.350, -3.39, 850)
+
+-- Militant x1
+place(9.92, 3.79, -3.50, "Militant", 600)
+upgrade(9.92, 2.350, -3.50, 300)
+upgrade(9.92, 2.350, -3.50, 850)
+
+-- Accelerator x1
+place(-11.77, 3.79, -11.57, "Accelerator", 7500)
+upgrade(-11.77, 2.350, -11.57, 2000)
+upgrade(-11.77, 2.350, -11.57, 6000)
+
+-- PHASE 1 — Second half (replaced, duplicates removed)
+-- Minigunner x1
+place(-10.93, 4.35, -3.27, "Minigunner", 1850)
+upgrade(-10.93, 2.350, -3.27, 400)
+upgrade(-10.93, 2.350, -3.27, 1500)
+
+-- Minigunner x1
+place(-11.05, 4.35, 3.63, "Minigunner", 1850)
+upgrade(-11.05, 2.350, 3.63, 400)
+upgrade(-11.05, 2.350, 3.63, 1500)
+
+-- Minigunner x1
+place(-11.19, 4.15, -6.56, "Minigunner", 1850)
+upgrade(-11.19, 2.350, -6.56, 400)
+upgrade(-11.19, 2.350, -6.56, 1500)
+
+-- Minigunner x1
+place(-7.42, 4.35, 3.68, "Minigunner", 1850)
+upgrade(-7.42, 2.350, 3.68, 400)
+upgrade(-7.42, 2.350, 3.68, 1500)
+
+-- Minigunner x1
+place(-4.40, 4.34, 3.63, "Minigunner", 1850)
+upgrade(-4.40, 2.350, 3.63, 400)
+upgrade(-4.40, 2.350, 3.63, 1500)
+
+-- Minigunner x1
+place(-4.27, 3.91, 6.86, "Minigunner", 1850)
+upgrade(-4.27, 2.350, 6.86, 400)
+upgrade(-4.27, 2.350, 6.86, 1500)
+
+-- Minigunner x1
+place(-11.35, 4.35, 7.91, "Minigunner", 1850)
+upgrade(-11.35, 2.350, 7.91, 400)
+upgrade(-11.35, 2.350, 7.91, 1500)
+
+-- Minigunner x1
+place(-8.06, 4.35, 7.80, "Minigunner", 1850)
+upgrade(-8.06, 2.350, 7.80, 400)
+upgrade(-8.06, 2.350, 7.80, 1500)
+
+-- Minigunner x1
+place(-5.58, 4.34, 7.91, "Minigunner", 1850)
+upgrade(-5.58, 2.350, 7.91, 400)
+upgrade(-5.58, 2.350, 7.91, 1500)
+
+-- Minigunner x1
+place(-3.36, 4.35, 7.74, "Minigunner", 1850)
+upgrade(-3.36, 2.350, 7.74, 400)
+upgrade(-3.36, 2.350, 7.74, 1500)
+
+-- Accelerator x1
+place(-11.14, 3.87, -25.06, "Accelerator", 7500)
+upgrade(-11.14, 2.350, -25.06, 2000)
+upgrade(-11.14, 2.350, -25.06, 6000)
+
+-- Accelerator x1
+place(-7.90, 3.80, -25.39, "Accelerator", 7500)
+upgrade(-7.90, 2.350, -25.39, 2000)
+upgrade(-7.90, 2.350, -25.39, 6000)
+
+-- Accelerator x1
+place(-4.02, 4.11, -25.16, "Accelerator", 7500)
+upgrade(-4.02, 2.350, -25.16, 2000)
+upgrade(-4.02, 2.350, -25.16, 6000)
+
+-- Accelerator x1
+place(-4.55, 4.02, -28.64, "Accelerator", 7500)
+upgrade(-4.55, 2.350, -28.64, 2000)
+upgrade(-4.55, 2.350, -28.64, 6000)
+
+-- PHASE 1 — Remaining Freezers (kept from earlier batch)
+place(-26.68, 3.29, -3.26, "Freezer", 425)
+upgrade(-26.68, 2.350, -3.26, 225)
+upgrade(-26.68, 2.350, -3.26, 650)
+
+place(-26.42, 4.11, 3.87, "Freezer", 425)
+upgrade(-26.42, 2.350, 3.87, 225)
+upgrade(-26.42, 2.350, 3.87, 650)
+
+place(-26.42, 4.11, 3.87, "Freezer", 425)
+upgrade(-26.42, 2.350, 3.87, 225)
+upgrade(-26.42, 2.350, 3.87, 650)
+
+place(-29.00, 3.43, -3.19, "Freezer", 425)
+upgrade(-29.00, 2.350, -3.19, 225)
+upgrade(-29.00, 2.350, -3.19, 650)
+
+place(-36.09, 2.53, -10.53, "Freezer", 425)
+upgrade(-36.09, 2.350, -10.53, 225)
+upgrade(-36.09, 2.350, -10.53, 650)
+
+-- PHASE 2 — MAX ALL TOWERS (upgrades to match original script's max costs)
+-- Militants (max upgrades: 2750, 8000)
+upgrade(2.86, 2.350, -3.83, 2750)
+upgrade(2.86, 2.350, -3.83, 8000)
+
+upgrade(3.02, 2.350, 3.65, 2750)
+upgrade(3.02, 2.350, 3.65, 8000)
+
+upgrade(-3.94, 2.350, 3.54, 2750)
+upgrade(-3.94, 2.350, 3.54, 8000)
+
+upgrade(-3.87, 2.350, -3.29, 2750)
+upgrade(-3.87, 2.350, -3.29, 8000)
+
+upgrade(-3.72, 2.350, 3.56, 2750)
+upgrade(-3.72, 2.350, 3.56, 8000)
+
+upgrade(6.38, 2.350, 3.74, 2750)
+upgrade(6.38, 2.350, 3.74, 8000)
+
+upgrade(6.83, 2.350, -3.39, 2750)
+upgrade(6.83, 2.350, -3.39, 8000)
+
+upgrade(9.92, 2.350, -3.50, 2750)
+upgrade(9.92, 2.350, -3.50, 8000)
+
+upgrade(2.86, 2.350, -3.83, 2750) -- duplicate check; included to mirror original pattern
+upgrade(2.86, 2.350, -3.83, 8000)
+
+-- (also upgrade Militants that were placed earlier in the reordered block)
+upgrade(-3.72, 2.350, 3.56, 2750)
+upgrade(-3.72, 2.350, 3.56, 8000)
+
+upgrade(6.38, 2.350, 3.74, 2750)
+upgrade(6.38, 2.350, 3.74, 8000)
+
+upgrade(9.92, 2.350, -3.50, 2750)
+upgrade(9.92, 2.350, -3.50, 8000)
+
+-- Minigunners (max upgrades: 7000, 15500)
+upgrade(-10.93, 2.350, -3.27, 7000)
+upgrade(-10.93, 2.350, -3.27, 15500)
+
+upgrade(-11.05, 2.350, 3.63, 7000)
+upgrade(-11.05, 2.350, 3.63, 15500)
+
+upgrade(-11.19, 2.350, -6.56, 7000)
+upgrade(-11.19, 2.350, -6.56, 15500)
+
+upgrade(-7.42, 2.350, 3.68, 7000)
+upgrade(-7.42, 2.350, 3.68, 15500)
+
+upgrade(-4.40, 2.350, 3.63, 7000)
+upgrade(-4.40, 2.350, 3.63, 15500)
+
+upgrade(-4.27, 2.350, 6.86, 7000)
+upgrade(-4.27, 2.350, 6.86, 15500)
+
+upgrade(-11.35, 2.350, 7.91, 7000)
+upgrade(-11.35, 2.350, 7.91, 15500)
+
+upgrade(-8.06, 2.350, 7.80, 7000)
+upgrade(-8.06, 2.350, 7.80, 15500)
+
+upgrade(-5.58, 2.350, 7.91, 7000)
+upgrade(-5.58, 2.350, 7.91, 15500)
+
+upgrade(-3.36, 2.350, 7.74, 7000)
+upgrade(-3.36, 2.350, 7.74, 15500)
+
+-- Freezers (max upgrades: 2000, 4500)
+upgrade(-26.68, 2.350, -3.26, 2000)
+upgrade(-26.68, 2.350, -3.26, 4500)
+
+upgrade(-26.42, 2.350, 3.87, 2000)
+upgrade(-26.42, 2.350, 3.87, 4500)
+
+upgrade(-29.00, 2.350, -3.19, 2000)
+upgrade(-29.00, 2.350, -3.19, 4500)
+
+upgrade(-36.09, 2.350, -10.53, 2000)
+upgrade(-36.09, 2.350, -10.53, 4500)
+
+-- Farms (max upgrades: 1250, 2500, 4500)
+upgrade(-43.98, 2.350, -38.04, 1250)
+upgrade(-43.98, 2.350, -38.04, 2500)
+upgrade(-43.98, 2.350, -38.04, 4500)
+
+upgrade(-43.43, 2.350, -43.97, 1250)
+upgrade(-43.43, 2.350, -43.97, 2500)
+upgrade(-43.43, 2.350, -43.97, 4500)
+
+upgrade(-39.78, 2.350, -44.48, 1250)
+upgrade(-39.78, 2.350, -44.48, 2500)
+upgrade(-39.78, 2.350, -44.48, 4500)
+
+upgrade(-43.57, 2.350, -41.05, 1250)
+upgrade(-43.57, 2.350, -41.05, 2500)
+upgrade(-43.57, 2.350, -41.05, 4500)
+
+upgrade(-40.26, 2.350, -40.76, 1250)
+upgrade(-40.26, 2.350, -40.76, 2500)
+upgrade(-40.26, 2.350, -40.76, 4500)
+
+-- Accelerators (max upgrades: 9999, 27500, 55000)
+upgrade(-11.77, 2.350, -11.57, 9999)
+upgrade(-11.77, 2.350, -11.57, 27500)
+upgrade(-11.77, 2.350, -11.57, 55000)
+
+upgrade(-11.14, 2.350, -25.06, 9999)
+upgrade(-11.14, 2.350, -25.06, 27500)
+upgrade(-11.14, 2.350, -25.06, 55000)
+
+upgrade(-7.90, 2.350, -25.39, 9999)
+upgrade(-7.90, 2.350, -25.39, 27500)
+upgrade(-7.90, 2.350, -25.39, 55000)
+
+upgrade(-4.02, 2.350, -25.16, 9999)
+upgrade(-4.02, 2.350, -25.16, 27500)
+upgrade(-4.02, 2.350, -25.16, 55000)
+
+upgrade(-4.55, 2.350, -28.64, 9999)
+upgrade(-4.55, 2.350, -28.64, 27500)
+upgrade(-4.55, 2.350, -28.64, 55000)
