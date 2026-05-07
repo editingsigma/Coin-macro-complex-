@@ -1,3 +1,5 @@
+-- FULL MERGED SCRIPT — placements + upgrades (with added minigunners and their upgrades)
+
 -- PHASE 1 — Reordered placements (as finalized)
 -- Militant x1
 place(2.86, 3.32, -3.83, "Militant", 600)
@@ -70,9 +72,11 @@ upgrade(9.92, 2.350, -3.50, 300)
 upgrade(9.92, 2.350, -3.50, 850)
 
 -- Accelerator x1
-place(-11.77, 3.79, -11.57, "Accelerator", 7500)
-upgrade(-11.77, 3, -11.57, 2000)
-upgrade(-11.77, 3, -11.57, 6000)
+place(-11.14, 3.87, -25.06, "Accelerator", 7500)
+task.wait(0.6)
+upgrade(-11.14, 3, -25.06, 2000)
+task.wait(0.2)
+upgrade(-11.14, 3, -25.06, 6000)
 
 -- PHASE 1 — Second half (replaced, duplicates removed)
 -- Minigunner x1
@@ -96,11 +100,9 @@ upgrade(-7.42, 2.350, 3.68, 400)
 upgrade(-7.42, 2.350, 3.68, 1500)
 
 -- Accelerator x1
-place(-11.14, 3.87, -25.06, "Accelerator", 7500)
-task.wait(0.6)
-upgrade(-11.14, 3, -25.06, 2000)
-task.wait(0.2)
-upgrade(-11.14, 3, -25.06, 6000)
+place(-11.77, 3.79, -11.57, "Accelerator", 7500)
+upgrade(-11.77, 3, -11.57, 2000)
+upgrade(-11.77, 3, -11.57, 6000)
 
 -- Minigunner x1
 place(-4.40, 4.34, 3.63, "Minigunner", 1850)
@@ -132,7 +134,8 @@ place(-3.36, 4.35, 7.74, "Minigunner", 1850)
 upgrade(-3.36, 2.350, 7.74, 400)
 upgrade(-3.36, 2.350, 7.74, 1500)
 
--- Added Minigunners (new)
+
+-- Added Minigunners (existing newer block)
 place(4.46, 4.34, 7.79, "Minigunner", 1850)
 upgrade(4.46, 2.350, 7.79, 400)
 upgrade(4.46, 2.350, 7.79, 1500)
@@ -165,12 +168,89 @@ place(3.93, 4.27, 10.09, "Minigunner", 1850)
 upgrade(3.93, 2.350, 10.09, 400)
 upgrade(3.93, 2.350, 10.09, 1500)
 
+
+-- NEWER MINIGUNNERS (added after the existing newer minigunners)
+place(10.54, 4.34, 10.08, "Minigunner", 1850)
+upgrade(10.54, 2.350, 10.08, 400)
+upgrade(10.54, 2.350, 10.08, 1500)
+
+place(9.07, 4.35, 9.27, "Minigunner", 1850)
+upgrade(9.07, 2.350, 9.27, 400)
+upgrade(9.07, 2.350, 9.27, 1500)
+
+place(7.49, 4.35, 9.25, "Minigunner", 1850)
+upgrade(7.49, 2.350, 9.25, 400)
+upgrade(7.49, 2.350, 9.25, 1500)
+
+place(6.15, 4.34, 9.18, "Minigunner", 1850)
+upgrade(6.15, 2.350, 9.18, 400)
+upgrade(6.15, 2.350, 9.18, 1500)
+
+place(4.39, 4.34, 9.33, "Minigunner", 1850)
+upgrade(4.39, 2.350, 9.33, 400)
+upgrade(4.39, 2.350, 9.33, 1500)
+
+place(-3.40, 4.34, 10.37, "Minigunner", 1850)
+upgrade(-3.40, 2.350, 10.37, 400)
+upgrade(-3.40, 2.350, 10.37, 1500)
+
+place(-5.31, 4.34, 10.32, "Minigunner", 1850)
+upgrade(-5.31, 2.350, 10.32, 400)
+upgrade(-5.31, 2.350, 10.32, 1500)
+
+place(-6.86, 4.35, 10.26, "Minigunner", 1850)
+upgrade(-6.86, 2.350, 10.26, 400)
+upgrade(-6.86, 2.350, 10.26, 1500)
+
+place(-8.55, 4.28, 10.20, "Minigunner", 1850)
+upgrade(-8.55, 2.350, 10.20, 400)
+upgrade(-8.55, 2.350, 10.20, 1500)
+
+place(-10.66, 3.90, 10.09, "Minigunner", 1850)
+upgrade(-10.66, 2.350, 10.09, 400)
+upgrade(-10.66, 2.350, 10.09, 1500)
+
+
 -- Accelerator x1
 place(-7.90, 3.80, -25.39, "Accelerator", 7500)
 upgrade(-7.90, 3, -25.39, 2000)
 upgrade(-7.90, 3, -25.39, 6000)
 
--- Add militants' max upgrades here (after the second accelerator)
+-- Accelerator x1
+place(-4.02, 4.11, -25.16, "Accelerator", 7500)
+upgrade(-4.02, 3, -25.16, 2000)
+upgrade(-4.02, 3, -25.16, 6000)
+
+-- Accelerator x1
+place(-4.55, 4.02, -28.64, "Accelerator", 7500)
+upgrade(-4.55, 3, -28.64, 2000)
+upgrade(-4.55, 3, -28.64, 6000)
+
+
+-- PHASE 1 — Remaining Freezers (kept from earlier batch)
+place(-26.68, 3.29, -3.26, "Freezer", 425)
+upgrade(-26.68, 2.350, -3.26, 225)
+upgrade(-26.68, 2.350, -3.26, 650)
+
+place(-26.42, 4.11, 3.87, "Freezer", 425)
+upgrade(-26.42, 2.350, 3.87, 225)
+upgrade(-26.42, 2.350, 3.87, 650)
+
+place(-26.42, 4.11, 3.87, "Freezer", 425)
+upgrade(-26.42, 2.350, 3.87, 225)
+upgrade(-26.42, 2.350, 3.87, 650)
+
+place(-29.00, 3.43, -3.19, "Freezer", 425)
+upgrade(-29.00, 2.350, -3.19, 225)
+upgrade(-29.00, 2.350, -3.19, 650)
+
+place(-36.09, 2.53, -10.53, "Freezer", 425)
+upgrade(-36.09, 2.350, -10.53, 225)
+upgrade(-36.09, 2.350, -10.53, 650)
+
+
+-- PHASE 2 — MAX ALL TOWERS (upgrades to match original script's max costs)
+-- Militants (max upgrades: 2750, 8000)
 upgrade(2.86, 2.350, -3.83, 2750)
 upgrade(2.86, 2.350, -3.83, 8000)
 
@@ -195,39 +275,19 @@ upgrade(6.83, 2.350, -3.39, 8000)
 upgrade(9.92, 2.350, -3.50, 2750)
 upgrade(9.92, 2.350, -3.50, 8000)
 
--- Accelerator x1
-place(-4.02, 4.11, -25.16, "Accelerator", 7500)
-upgrade(-4.02, 3, -25.16, 2000)
-upgrade(-4.02, 3, -25.16, 6000)
+upgrade(2.86, 2.350, -3.83, 2750) -- duplicate check; included to mirror original pattern
+upgrade(2.86, 2.350, -3.83, 8000)
 
--- Accelerator x1
-place(-4.55, 4.02, -28.64, "Accelerator", 7500)
-upgrade(-4.55, 3, -28.64, 2000)
-upgrade(-4.55, 3, -28.64, 6000)
+-- (also upgrade Militants that were placed earlier in the reordered block)
+upgrade(-3.72, 2.350, 3.56, 2750)
+upgrade(-3.72, 2.350, 3.56, 8000)
 
--- PHASE 1 — Remaining Freezers (kept from earlier batch)
-place(-26.68, 3.29, -3.26, "Freezer", 425)
-upgrade(-26.68, 2.350, -3.26, 225)
-upgrade(-26.68, 2.350, -3.26, 650)
+upgrade(6.38, 2.350, 3.74, 2750)
+upgrade(6.38, 2.350, 3.74, 8000)
 
-place(-26.42, 4.11, 3.87, "Freezer", 425)
-upgrade(-26.42, 2.350, 3.87, 225)
-upgrade(-26.42, 2.350, 3.87, 650)
+upgrade(9.92, 2.350, -3.50, 2750)
+upgrade(9.92, 2.350, -3.50, 8000)
 
-place(-26.42, 4.11, 3.87, "Freezer", 425)
-upgrade(-26.42, 2.350, 3.87, 225)
-upgrade(-26.42, 2.350, 3.87, 650)
-
-place(-29.00, 3.43, -3.19, "Freezer", 425)
-upgrade(-29.00, 2.350, -3.19, 225)
-upgrade(-29.00, 2.350, -3.19, 650)
-
-place(-36.09, 2.53, -10.53, "Freezer", 425)
-upgrade(-36.09, 2.350, -10.53, 225)
-upgrade(-36.09, 2.350, -10.53, 650)
-
--- PHASE 2 — MAX ALL TOWERS (upgrades to match original script's max costs)
--- Note: militants' max upgrades were moved earlier (after second accelerator), so they are not repeated here.
 
 -- Minigunners (max upgrades: 7000, 15500)
 upgrade(-10.93, 2.350, -3.27, 7000)
@@ -284,6 +344,38 @@ upgrade(5.97, 2.350, 10.06, 15500)
 upgrade(3.93, 2.350, 10.09, 7000)
 upgrade(3.93, 2.350, 10.09, 15500)
 
+-- NEWER MINIGUNNERS (max upgrades for the ones added)
+upgrade(10.54, 2.350, 10.08, 7000)
+upgrade(10.54, 2.350, 10.08, 15500)
+
+upgrade(9.07, 2.350, 9.27, 7000)
+upgrade(9.07, 2.350, 9.27, 15500)
+
+upgrade(7.49, 2.350, 9.25, 7000)
+upgrade(7.49, 2.350, 9.25, 15500)
+
+upgrade(6.15, 2.350, 9.18, 7000)
+upgrade(6.15, 2.350, 9.18, 15500)
+
+upgrade(4.39, 2.350, 9.33, 7000)
+upgrade(4.39, 2.350, 9.33, 15500)
+
+upgrade(-3.40, 2.350, 10.37, 7000)
+upgrade(-3.40, 2.350, 10.37, 15500)
+
+upgrade(-5.31, 2.350, 10.32, 7000)
+upgrade(-5.31, 2.350, 10.32, 15500)
+
+upgrade(-6.86, 2.350, 10.26, 7000)
+upgrade(-6.86, 2.350, 10.26, 15500)
+
+upgrade(-8.55, 2.350, 10.20, 7000)
+upgrade(-8.55, 2.350, 10.20, 15500)
+
+upgrade(-10.66, 2.350, 10.09, 7000)
+upgrade(-10.66, 2.350, 10.09, 15500)
+
+
 -- Freezers (max upgrades: 2000, 4500)
 upgrade(-26.68, 2.350, -3.26, 2000)
 upgrade(-26.68, 2.350, -3.26, 4500)
@@ -296,6 +388,7 @@ upgrade(-29.00, 2.350, -3.19, 4500)
 
 upgrade(-36.09, 2.350, -10.53, 2000)
 upgrade(-36.09, 2.350, -10.53, 4500)
+
 
 -- Farms (max upgrades: 1250, 2500, 4500)
 upgrade(-43.98, 2.350, -38.04, 1250)
@@ -317,6 +410,7 @@ upgrade(-43.57, 2.350, -41.05, 4500)
 upgrade(-40.26, 2.350, -40.76, 1250)
 upgrade(-40.26, 2.350, -40.76, 2500)
 upgrade(-40.26, 2.350, -40.76, 4500)
+
 
 -- Accelerators (max upgrades: 9999, 27500, 55000)
 upgrade(-11.77, 2.350, -11.57, 9999)
