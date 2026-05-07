@@ -71,8 +71,8 @@ upgrade(9.92, 2.350, -3.50, 850)
 
 -- Accelerator x1
 place(-11.77, 3.79, -11.57, "Accelerator", 7500)
-upgrade(-11.77, 2.350, -11.57, 2000)
-upgrade(-11.77, 2.350, -11.57, 6000)
+upgrade(-11.77, 3, -11.57, 2000)
+upgrade(-11.77, 3, -11.57, 6000)
 
 -- PHASE 1 — Second half (replaced, duplicates removed)
 -- Minigunner x1
@@ -98,9 +98,9 @@ upgrade(-7.42, 2.350, 3.68, 1500)
 -- Accelerator x1
 place(-11.14, 3.87, -25.06, "Accelerator", 7500)
 task.wait(0.6)
-upgrade(-11.14, 2.350, -25.06, 2000)
+upgrade(-11.14, 3, -25.06, 2000)
 task.wait(0.2)
-upgrade(-11.14, 2.350, -25.06, 6000)
+upgrade(-11.14, 3, -25.06, 6000)
 
 -- Minigunner x1
 place(-4.40, 4.34, 3.63, "Minigunner", 1850)
@@ -167,18 +167,18 @@ upgrade(3.93, 2.350, 10.09, 1500)
 
 -- Accelerator x1
 place(-7.90, 3.80, -25.39, "Accelerator", 7500)
-upgrade(-7.90, 2.350, -25.39, 2000)
-upgrade(-7.90, 2.350, -25.39, 6000)
+upgrade(-7.90, 3, -25.39, 2000)
+upgrade(-7.90, 3, -25.39, 6000)
 
 -- Accelerator x1
 place(-4.02, 4.11, -25.16, "Accelerator", 7500)
-upgrade(-4.02, 2.350, -25.16, 2000)
-upgrade(-4.02, 2.350, -25.16, 6000)
+upgrade(-4.02, 3, -25.16, 2000)
+upgrade(-4.02, 3, -25.16, 6000)
 
 -- Accelerator x1
 place(-4.55, 4.02, -28.64, "Accelerator", 7500)
-upgrade(-4.55, 2.350, -28.64, 2000)
-upgrade(-4.55, 2.350, -28.64, 6000)
+upgrade(-4.55, 3, -28.64, 2000)
+upgrade(-4.55, 3, -28.64, 6000)
 
 -- PHASE 1 — Remaining Freezers (kept from earlier batch)
 place(-26.68, 3.29, -3.26, "Freezer", 425)
