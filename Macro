@@ -3,13 +3,11 @@
 place(2.86, 3.32, -3.83, "Militant", 600)
 upgrade(2.86, 2.350, -3.83, 300)
 upgrade(2.86, 2.350, -3.83, 850)
-upgrade(2.86, 2.350, -3.83, 2750)
 
 -- Militant x1
 place(3.02, 3.59, 3.65, "Militant", 600)
 upgrade(3.02, 2.350, 3.65, 300)
 upgrade(3.02, 2.350, 3.65, 850)
-upgrade(3.02, 2.350, 3.65, 2750)
 
 -- Farm x1
 place(-43.98, 4.37, -38.04, "Farm", 300)
@@ -25,7 +23,6 @@ upgrade(-43.43, 2.350, -43.97, 600)
 place(-3.94, 3.50, 3.54, "Militant", 600)
 upgrade(-3.94, 2.350, 3.54, 300)
 upgrade(-3.94, 2.350, 3.54, 850)
-upgrade(-3.94, 2.350, 3.54, 2750)
 
 -- Farm x1
 place(-39.78, 4.89, -44.48, "Farm", 300)
@@ -173,6 +170,31 @@ place(-7.90, 3.80, -25.39, "Accelerator", 7500)
 upgrade(-7.90, 3, -25.39, 2000)
 upgrade(-7.90, 3, -25.39, 6000)
 
+-- Add militants' max upgrades here (after the second accelerator)
+upgrade(2.86, 2.350, -3.83, 2750)
+upgrade(2.86, 2.350, -3.83, 8000)
+
+upgrade(3.02, 2.350, 3.65, 2750)
+upgrade(3.02, 2.350, 3.65, 8000)
+
+upgrade(-3.94, 2.350, 3.54, 2750)
+upgrade(-3.94, 2.350, 3.54, 8000)
+
+upgrade(-3.87, 2.350, -3.29, 2750)
+upgrade(-3.87, 2.350, -3.29, 8000)
+
+upgrade(-3.72, 2.350, 3.56, 2750)
+upgrade(-3.72, 2.350, 3.56, 8000)
+
+upgrade(6.38, 2.350, 3.74, 2750)
+upgrade(6.38, 2.350, 3.74, 8000)
+
+upgrade(6.83, 2.350, -3.39, 2750)
+upgrade(6.83, 2.350, -3.39, 8000)
+
+upgrade(9.92, 2.350, -3.50, 2750)
+upgrade(9.92, 2.350, -3.50, 8000)
+
 -- Accelerator x1
 place(-4.02, 4.11, -25.16, "Accelerator", 7500)
 upgrade(-4.02, 3, -25.16, 2000)
@@ -205,43 +227,7 @@ upgrade(-36.09, 2.350, -10.53, 225)
 upgrade(-36.09, 2.350, -10.53, 650)
 
 -- PHASE 2 — MAX ALL TOWERS (upgrades to match original script's max costs)
--- Militants (max upgrades: 2750, 8000)
-upgrade(2.86, 2.350, -3.83, 2750)
-upgrade(2.86, 2.350, -3.83, 8000)
-
-upgrade(3.02, 2.350, 3.65, 2750)
-upgrade(3.02, 2.350, 3.65, 8000)
-
-upgrade(-3.94, 2.350, 3.54, 2750)
-upgrade(-3.94, 2.350, 3.54, 8000)
-
-upgrade(-3.87, 2.350, -3.29, 2750)
-upgrade(-3.87, 2.350, -3.29, 8000)
-
-upgrade(-3.72, 2.350, 3.56, 2750)
-upgrade(-3.72, 2.350, 3.56, 8000)
-
-upgrade(6.38, 2.350, 3.74, 2750)
-upgrade(6.38, 2.350, 3.74, 8000)
-
-upgrade(6.83, 2.350, -3.39, 2750)
-upgrade(6.83, 2.350, -3.39, 8000)
-
-upgrade(9.92, 2.350, -3.50, 2750)
-upgrade(9.92, 2.350, -3.50, 8000)
-
-upgrade(2.86, 2.350, -3.83, 2750) -- duplicate check; included to mirror original pattern
-upgrade(2.86, 2.350, -3.83, 8000)
-
--- (also upgrade Militants that were placed earlier in the reordered block)
-upgrade(-3.72, 2.350, 3.56, 2750)
-upgrade(-3.72, 2.350, 3.56, 8000)
-
-upgrade(6.38, 2.350, 3.74, 2750)
-upgrade(6.38, 2.350, 3.74, 8000)
-
-upgrade(9.92, 2.350, -3.50, 2750)
-upgrade(9.92, 2.350, -3.50, 8000)
+-- Note: militants' max upgrades were moved earlier (after second accelerator), so they are not repeated here.
 
 -- Minigunners (max upgrades: 7000, 15500)
 upgrade(-10.93, 2.350, -3.27, 7000)
